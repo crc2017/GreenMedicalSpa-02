@@ -5340,8 +5340,9 @@ button:focus {
     border-color: #FF8800 !important; }
 
 .btn-success {
-  background-color: #57F08C !important;
-  color: #fff !important; }
+    background-color: #57f08c6e !important;
+    color: #000 !important;
+   }
   .btn-success:hover {
     background-color: #00e25b; }
   .btn-success:focus, .btn-success:active, .btn-success.active {
