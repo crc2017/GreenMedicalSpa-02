@@ -870,7 +870,7 @@
   background-color: #FFFFFF !important; }
 
 .white-text {
-  color: #00c851 !important; }
+  color: #000; }
 
 .transparent {
   background-color: transparent !important; }
@@ -5340,7 +5340,7 @@ button:focus {
     border-color: #FF8800 !important; }
 
 .btn-success {
-  background-color: #00C851 !important;
+  background-color: #57F08C !important;
   color: #fff !important; }
   .btn-success:hover {
     background-color: #00e25b; }
