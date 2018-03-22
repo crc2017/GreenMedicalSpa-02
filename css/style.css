@@ -718,7 +718,7 @@ h2.resp-accordion {
 } 
 .footer-copy {
     padding: 1.5em 0;
-    background: #5bc0de;
+    background: #57F08C;
 }
 .footer-copy p {
     text-align: center;
@@ -995,7 +995,7 @@ h2.resp-accordion {
     width: 100%;
 }
 .team-right {
-    background-color: #04cde0;
+    background-color: #57F08C;
     padding:6em 9em 8em 5em;
 }
 .team-right p {
@@ -1054,8 +1054,8 @@ ul.simplefilter {
     border-radius: 30px;
 } 
 .simplefilter li.active {
-    background-color: #ff7200;
-    border-color: #ff7200;
+    background-color: #57F08C;
+    border-color: #57F08C;
     color: #fff;
 }
 .agileits-img a{ 
@@ -2998,4 +2998,11 @@ html,
             width: 100%;
         }
 
+}
+.deso-image {
+    background-image: url("../images/deso.jpg");
+
+}
+.pie {
+    background-image: url("../images/pie.jpg");
 }
