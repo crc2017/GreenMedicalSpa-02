@@ -197,7 +197,7 @@ p.bnrw3-agiletext {
 	text-anchor: middle;
 }
 .page-header__content .text-bg svg #alpha {
-	fill: #503c3c;
+	fill: #94727240;
 }
 /*--
 .page-header__content .text-bg svg #alpha3 {
@@ -417,8 +417,7 @@ figure.effect-jazz:hover p {
 	-moz-transition:.5s all;
 	-o-transition:.5s all;
 	-ms-transition:.5s all;
-    transition:.5s all;
-    margin: 14px;
+	transition:.5s all;
 }
 .start a:hover {
     color: #FF5722;
@@ -2653,7 +2652,7 @@ div.btnbg {
 .ze-card-invi-wrap {
   display: flex;
   cursor: pointer;
-  width: 25%;
+  width: 30%;
   margin: 50px auto;
   overflow: hidden;
   padding: 45px;
@@ -2689,7 +2688,7 @@ div.btnbg {
   padding: 25px;
   padding-bottom: 255px;
   background: #fff;
-  border-radius: 3px;
+  border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 3px 5px rgba(0, 0, 0, 0.05);
   position: relative;
   transform-style: preserve-3d;
@@ -2700,9 +2699,9 @@ div.btnbg {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: absolute;
   bottom: -60px;
-  right: -55px;
+  right: -20px;
   width: 100%;
-  height: 300px;
+  height: 250px;
   border-radius: 9px;
   overflow: hidden;
   background-size: cover;
@@ -2939,6 +2938,8 @@ html,
 .active-location-card--new-york .location-card {
   background-image: url("../images/UI_complementaria.png");
   width: 50%;
+  opacity: 0.8;
+  margin-top: -27px;
 }
 
 .point-of-interest__name {
@@ -3005,4 +3006,14 @@ html,
 }
 .pie {
     background-image: url("../images/pie.jpg");
+}
+.fondo-services {
+    background-image: url("../images/fondo2.jpg"); 
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-position-x: center;*/
+    background-attachment: fixed;
 }
