@@ -1212,12 +1212,6 @@
 .z-depth-0, .modal-dialog.cascading-modal.modal-avatar .modal-header {
   box-shadow: none !important; }
 
-.z-depth-1, .jumbotron,
-.navbar,
-.badge,
-.chip, .btn, .card:not([class*="card-outline-"]), .pagination .active .page-link, .modal-dialog.cascading-modal .modal-c-tabs .nav-tabs, .modal-dialog.modal-notify .modal-header {
-  ; }
-
 .z-depth-1-half, .btn:hover, .btn:active, .btn:focus, .btn:active:focus, .btn-primary:focus, .btn-primary.focus, .btn-primary:not([disabled]):not(.disabled):active, .btn-primary.active:not([disabled]):not(.disabled),
 .show > .btn-primary.dropdown-toggle, .btn-primary:not([disabled]):not(.disabled):active:focus, .btn-primary.active:not([disabled]):not(.disabled):focus,
 .show > .btn-primary.dropdown-toggle:focus, .btn-outline-primary:not([disabled]):not(.disabled):active, .btn-outline-primary.active:not([disabled]):not(.disabled),
@@ -7241,7 +7235,7 @@ body.scrollable {
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%); }
+  }
 
 .waves-button,
 .waves-button:hover,
@@ -7288,7 +7282,6 @@ body.scrollable {
   border-radius: 50%; }
 
 .waves-float {
-  -webkit-mask-image: none;
   box-shadow: 0px 1px 1.5px 1px rgba(0, 0, 0, 0.12);
   -webkit-transition: all 300ms;
   transition: all 300ms; }
@@ -7812,5 +7805,4 @@ table.table-sm td {
   padding-bottom: 0.6rem; }
 .clear-fix-services {
       padding: 8px;
-
 }
