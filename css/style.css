@@ -1,4 +1,3 @@
-
 body{
 	margin:0;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -2702,7 +2701,6 @@ div.btnbg {
   right: -20px;
   width: 100%;
   height: 250px;
-  border-radius: 9px;
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3014,6 +3012,19 @@ html,
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*background-position-x: center;*/
     background-attachment: fixed;
+}
+.neurologia {
+    background-image: url("../images/cerebro.png"); 
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:160px;
+    border:10px solid #666;
 }
