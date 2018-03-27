@@ -211,9 +211,8 @@
             // timeout to fix IE blinking
             setTimeout(function() {
                 _this.$item.css({
-                    'background-image'      : 'none',
                     'background-attachment' : 'scroll',
-                    'background-size'       : 'auto'
+                    'background-size'       : 'cover'
                 });
             }, 0);
         });
