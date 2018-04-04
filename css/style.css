@@ -911,13 +911,13 @@ h2.resp-accordion {
 }
 /*-- about-page --*/
 .about-w3banner {
-    background: url(../video/spa.jpg)no-repeat 0px 0px;
-    background-size: cover; 
+    background: url(../images/pastillas-verde.jpg)no-repeat 0px 0px;
+    background-size: cover;
 }
 .about-w3banner .w3header { 
-    padding: 2.5em 0;
-    background: rgba(244, 224, 224, 0.55);
-} 
+    padding: 0.5em 0;
+    /*background: rgba(11, 207, 44, 0.02);*/
+}
 /*-- //about-page --*/
 /*-- services-bottom --*/
 .services-bottom { 
@@ -2562,8 +2562,8 @@ p.bnrw3-agiletext {
 .contenedor {
     overflow:hidden;
 }
-.about-bacground {
-     background-image: url("../images/fondo-about.jpg"); 
+.about-background {
+     background-image: url("../images/pastillas-verde.jpg") ; 
      background-repeat: no-repeat;
      -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -2573,7 +2573,7 @@ p.bnrw3-agiletext {
      background-attachment: fixed;
 }
 .fondo-spa {
-    background-image: url("../images/fondo-about_02.jpg"); 
+    background-image: url("../images/fondo2.jpg"); 
      background-repeat: no-repeat;
      -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -3028,6 +3028,13 @@ html,
     height:300px;
     border-radius:160px;
     border:10px solid #666;
+}
+.font-color-white {
+    color:#fff !important;
+}
+.font-color-weight {
+    color: #fff;
+    font-weight: 700;
 }
 *{
 	padding:0;
