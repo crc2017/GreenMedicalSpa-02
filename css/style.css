@@ -231,11 +231,13 @@ p {
     text-align: justify;
 } 
 .ab-text h6 {
-    font-size: 1.6em;
-    color: #008c9a;
+    font-size: 2.0em;
+    color: #000000;
     line-height: 1.5em;
     margin-bottom: 0.5em;
     font-style: italic;
+    font-weight: 600;
+    background-color: #fff9;
 }
 .grid {
 	position: relative; 
@@ -2540,10 +2542,10 @@ p.bnrw3-agiletext {
     font-style: oblique;
 }
 .estilo-texto-somos {
-    font-size: 14px;
     font-style: oblique;
     color: #000;
-    font-weight: 500;
+    font-weight: 600;
+    background-color: #ffffff7d;
 }
 .text-align-center {
     text-align: center;
