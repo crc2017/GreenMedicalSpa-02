@@ -281,7 +281,6 @@ p {
 }
 
 .ab-text h6 {
-    background-color: #fff9;
     color: #000000;
     font-size: 2.0em;
     font-style: italic;
@@ -1047,7 +1046,7 @@ h2.resp-accordion {
 }
 
 .about-w3banner {
-    background: url(../images/pastillas-verde.jpg)no-repeat 0px 0px;
+    background: url(../images/pastillas-verde_02.jpg)no-repeat 0px 0px;
     background-size: cover;
 }
 
@@ -2929,7 +2928,6 @@ h4.w3ls-title {
 }
 
 .estilo-texto-somos {
-    background-color: #ffffff7d;
     color: #000;
     font-style: oblique;
     font-weight: 600;
@@ -2959,7 +2957,7 @@ h4.w3ls-title {
 
 .about-background {
     background-attachment: fixed;
-    background-image: url("../images/pastillas-verde.jpg");
+    background-image: url("../images/pastillas-verde_02.jpg");
     background-position-x: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3457,7 +3455,7 @@ html,
 
 .fondo-services {
     background-attachment: fixed !important;
-    background-image: url("../images/dos.jpg");
+    background-image: url("../images/vig.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     -moz-background-size: cover;
@@ -3482,7 +3480,7 @@ html,
 }
 
 .font-color-white {
-    color: #fff !important;
+    color:#534e4e !important;
 }
 
 .font-color-weight {
